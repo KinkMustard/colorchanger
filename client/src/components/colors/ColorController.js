@@ -68,6 +68,7 @@ class ColorController extends React.Component {
           color={"primary"}
           className={classes.button}
           onClick={() => this.setColor(color)}
+          style={{ backgroundColor: color }}
         >
           {color}
         </Button>
