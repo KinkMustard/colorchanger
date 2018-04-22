@@ -11,7 +11,5 @@ class App extends React.Component {
 }
 
 const rootElement = document.querySelector("#root");
-if (rootElement) {
-  render(<App />, rootElement);
-}
+render(<App />, rootElement);
 registerServiceWorker();

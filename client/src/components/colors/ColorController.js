@@ -113,7 +113,10 @@ class ColorController extends React.Component {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
-            flexFlow: "column"
+            flexFlow: "column",
+            position: "absolute",
+            top: "0",
+            left: "0"
           }}
         >
           {this.renderFields()}
