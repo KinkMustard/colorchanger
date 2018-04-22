@@ -14,9 +14,9 @@ mongoose.connect("mongodb://KinkMustard:Czy4306162@ds149309.mlab.com:49309/image
 
 io.on("connection", SocketManager);
 
-if (process.env.NODE_ENV === "production") {
-  app.use(express.static(__dirname, "client/build"));
-}
+// if (process.env.NODE_ENV === "production") {
+//   app.use(express.static(__dirname, "client/build"));
+// }
 
 const PORT = process.env.PORT || 5000;
 server.listen(PORT, () => {
