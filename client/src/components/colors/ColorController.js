@@ -12,7 +12,7 @@ import { GET_COLOR, CHANGE_COLOR, UPDATE_COLOR } from "../../Events";
 const endPoint =
   process.env.NODE_ENV === "development"
     ? "http://192.168.1.97:5000"
-    : "https://obscure-retreat-13940.herokuapp.com/";
+    : "https://frozen-forest-79869.herokuapp.com/";
 
 const styles = theme => ({
   button: {
