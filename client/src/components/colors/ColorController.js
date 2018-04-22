@@ -9,10 +9,7 @@ import Button from "material-ui/Button";
 import colorFields from "./colorFields";
 import { GET_COLOR, CHANGE_COLOR, UPDATE_COLOR } from "../../Events";
 
-const endPoint =
-  process.env.NODE_ENV === "development"
-    ? "http://192.168.1.97:5000"
-    : "https://frozen-forest-79869.herokuapp.com/";
+const endPoint = process.env.NODE_ENV === "development" ? "http://192.168.1.97:5000" : "/";
 
 const styles = theme => ({
   button: {
