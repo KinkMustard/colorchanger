@@ -1,0 +1,5 @@
+module.exports = {
+  GET_COLOR: "GET_COLOR",
+  CHANGE_COLOR: "CHANGE_COLOR",
+  UPDATE_COLOR: "UPDATE_COLOR"
+};
